@@ -125,7 +125,7 @@ phase!
 ## Phase 2: Dropdown menu
 
 You've probably implemented a dropdown using HTML and CSS before, but let's
-build a fancier dropdown using JavaScript! Head to __src/drop_down.js__. At the
+build a fancier dropdown using JavaScript! Head to __src/dropdown.js__. At the
 top of the file, you should find a POJO with a list of dog names and links to
 information about each dog. The ultimate goal of this phase is to dynamically
 convert the dog POJO into a dropdown with a list of dog names that a user can
@@ -256,7 +256,7 @@ pictures. In __index.html__ you'll see some `img` tags that are currently
 invisible on the page. The desired end goal is to have those images
 **magically** slide in when you scroll down the page to a certain point.
 
-In __src/slide_scroll.js__, the first thing you'll want to do is set up an event
+In __src/slide-scroll.js__, the first thing you'll want to do is set up an event
 listener on the `window` for the scroll event. Try `console.log`ing inside that
 function to see how many times the event happens as you scroll down the page.
 You'll probably notice you are logging about 10+ events before you even get to
